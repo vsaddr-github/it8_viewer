@@ -1,14 +1,19 @@
+# This script is licensed under the GNU GENERAL PUBLIC LICENSE
+# All credits go to Vlads Test Target
+# https://medium.com/@vladstesttarget
+# email: vlads.test.target@gmail.com
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import os
 
-show_rgb_text = True  # Toggle for RGB text overlay
 # Conversion mode flags
+show_rgb_text = True  # Toggle for RGB text overlay
 use_prophoto = False
 use_srgb_d50 = True
 apply_gamma = True
-black_mask=False  # mask colors not compliant
+black_mask=False  # mask not compliant colors 
 
 # Load the file
 file_path = "F210418.txt"
